@@ -1,4 +1,4 @@
 require './game'
 
 new_game = Game.new
-new_game.start
+new_game.play

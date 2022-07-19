@@ -6,4 +6,14 @@ class Player
     @name = name
     @lives = 3
   end
+
+
+  def decrease_life
+    @lives -= 1
+  end
+
+
+  def alive?
+    @lives > 0
+  end
 end
